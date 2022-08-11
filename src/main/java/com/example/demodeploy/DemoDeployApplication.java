@@ -11,6 +11,7 @@ public class DemoDeployApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoDeployApplication.class, args);
+	        spring.port =9093
 	}
 
 	@GetMapping("/")
